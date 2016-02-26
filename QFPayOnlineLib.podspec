@@ -9,13 +9,15 @@
 Pod::Spec.new do |s|
 
     s.name         = "QFPayOnlineLib"
-    s.version      = "1.0.0"
+    s.version      = "1.0.1"
     s.summary      = "QFPayOnlineLib is a sdk."
     s.description  = <<-DESC
                      **** QFPayOnlineLib is a sdk.
                      DESC
 
-    s.homepage     = "http://EXAMPLE/PayKernelLibrary"
+    s.homepage     = "http://EXAMPLE/QFPayOnlineLib"
+
+
 
     s.license      = "MIT"
 
@@ -23,7 +25,7 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, "7.0"
 
-    s.source       = { :git => "https://github.com/zhougang123/QFPayOnlineLib.git", :tag => "1.0.0" }
+    s.source       = { :git => "https://github.com/zhougang123/QFPayOnlineLib.git", :tag => "1.0.1" }
 
     s.source_files  = "PayOnline/*.{h,m}"
 
@@ -37,5 +39,5 @@ Pod::Spec.new do |s|
 
     s.dependency 'AFNetworking', '~> 3.0.4'
 
-    s.dependency 'PayKernelLibrary', :git =>'https://github.com/zhougang123/PayKernelLibrary.git', :tag =>'1.0.0'
+# s.dependency 'PayKernelLibrary', :git =>'https://github.com/zhougang123/PayKernelLibrary.git', :tag =>'1.0.0'
 end
